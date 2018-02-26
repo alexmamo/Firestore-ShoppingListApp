@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopping_list_name_text_view"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="Grocery"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/created_by_text_view"
+        android:layout_below="@+id/shopping_list_name_text_view"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginStart="8sp"
+        android:textSize="12sp"
+        tools:text="Created by: First User"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_text_view"
+        android:layout_below="@+id/shopping_list_name_text_view"
+        android:layout_marginEnd="8sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        tools:text="Feb 14, 2018"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/created_by_text_view"
+        android:layout_margin="8sp"
+        android:background="@android:color/darker_gray"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShoppingListApp</string>
+    <string name="sign_out_button">Sign-out</string>
+    <string name="add_friend_button">Add Friend</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
