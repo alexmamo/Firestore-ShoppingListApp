@@ -103,7 +103,7 @@ public class ShoppingListActivity extends AppCompatActivity {
         builder.setMessage("Please insert your friend's email");
 
         EditText editText = new EditText(ShoppingListActivity.this);
-        editText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_WORDS);
+        editText.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
         editText.setHint("Type an email address");
         editText.setHintTextColor(Color.GRAY);
         builder.setView(editText);
