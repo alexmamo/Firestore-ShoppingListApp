@@ -1,4 +1,4 @@
-# ShoppingListApp
+# Firestore ShoppingListApp
 
 ShoppingListApp is the companion Android app for the Youtube Tutorial: [How to build a Shopping List App using Cloud Firestore and Android](https://www.youtube.com/playlist?list=PLn2n4GESV0AmXOWOam729bC47v0d0Ohee).
 
